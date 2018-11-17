@@ -16,7 +16,7 @@ var tokenTypes = map[string]*regexp.Regexp{
 	"identifier": createTokenPattern("\\b[a-zA-Z]+\\b"),
 	"integer":    createTokenPattern("\\b[0-9]+\\b"),
 	"oparen":     createTokenPattern("\\("),
-	"cparent":    createTokenPattern("\\)"),
+	"cparen":     createTokenPattern("\\)"),
 }
 
 type Tokenizer struct {
